@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Touchumind</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <style>
+        /* vietnamese */
+
+        @font-face {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            src: local('Montserrat Bold'), local('Montserrat-Bold'), url(https://fonts.gstatic.com/s/montserrat/v10/IQHow_FEYlDC4Gzy_m8fcnv4bDVR720piddN5sbmjzs.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+        }
+
+        /* latin-ext */
+
+        @font-face {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            src: local('Montserrat Bold'), local('Montserrat-Bold'), url(https://fonts.gstatic.com/s/montserrat/v10/IQHow_FEYlDC4Gzy_m8fcjrEaqfC9P2pvLXik1Kbr9s.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        /* latin */
+
+        @font-face {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            src: local('Montserrat Bold'), local('Montserrat-Bold'), url(https://fonts.gstatic.com/s/montserrat/v10/IQHow_FEYlDC4Gzy_m8fcmaVI6zN22yiurzcBKxPjFE.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+        }
+
+        /* cyrillic-ext */
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/K88pR3goAWT7BTt32Z01m4X0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+        }
+
+        /* cyrillic */
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/RjgO7rYTmqiVp7vzi-Q5UYX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+        }
+
+        /* greek-ext */
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/LWCjsQkB6EMdfHrEVqA1KYX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+            unicode-range: U+1F00-1FFF;
+        }
+
+        /* greek */
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/xozscpT2726on7jbcb_pAoX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+            unicode-range: U+0370-03FF;
+        }
+
+        /* vietnamese */
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/59ZRklaO5bWGqF5A9baEEYX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+        }
+
+        /* latin-ext */
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/u-WUoqrET9fUeobQW7jkRYX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        /* latin */
+
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3ZBw1xU1rKptJj_0jans920.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+        }
+
+        html,
+        body {
+            overflow: hidden;
+            margin: 0;
+        }
+
+        body {
+            font-family: 'Open Sans', 'Helvetica Neue', 'Hiragino Sans GB', 'LiHei Pro', Arial, sans-serif;
+            color: #333;
+        }
+
+        #wrapper {
+            position: absolute;
+            left: 0;
+            width: 413px;
+            text-align: center;
+            top: 30%;
+            left: 50%;
+            margin-left: -160px;
+            margin-top: -75px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        h1 {
+            font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
+            font-weight: 700;
+            font-size: 30px;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+            margin: 12px 0;
+            left: 4px;
+        }
+
+        h2 {
+            color: #999;
+            font-weight: normal;
+            font-size: 15px;
+            letter-spacing: .12em;
+            margin-bottom: 30px;
+            left: 3px;
+        }
+
+        h1,
+        h2 {
+            position: relative;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 2em;
+            margin: 0;
+            letter-spacing: 2px;
+        }
+
+        #wrapper>p {
+            display: inline-block;
+            padding: 0 5px;
+        }
+
+        canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            transform: rotate(180deg);
+        }
+
+        a {
+            color: #666;
+            text-decoration: none;
+            transition: color .2s ease;
+        }
+
+        a:hover {
+            color: #f33;
+        }
+
+        .animated {
+            animation-duration: 2s;
+            animation-fill-mode: forwards;
+            animation-timing-function: ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .fadeIn {
+            animation-name: fadeIn;
+        }
+
+        @keyframes fadeOut {
+            from {
+                opacity: 1;
+            }
+
+            100% {
+                opacity: 0;
+            }
+        }
+
+        .fadeOut {
+            animation-name: fadeOut;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <h1>Touchumind</h1>
+        <h2>for(;;)Study;</h2>
+        <p>
+            <a href="https://blog.fedepot.com" target="_blank">Blog</a>
+        </p>
+        <p>
+            <a href="https://portfolio.fedepot.com" target="_blank">Portfolio</a>
+        </p>
+        <p>
+            <a href="https://twitter.com/thundernet8" target="_blank">Twitter</a>
+        </p>
+        <p>
+            <a href="https://github.com/thundernet8" target="_blank">Github</a>
+        </p>
+        <p>
+            <a href="https://leetcode.fedepot.com" target="_blank">LeetCode</a>
+        </p>
+    </div>
+    <canvas class="fadeIn animated"></canvas>
+    <script>
+        document.addEventListener('touchmove', function (e) {
+            e.preventDefault()
+        })
+        var c = document.getElementsByTagName('canvas')[0],
+            x = c.getContext('2d'),
+            pr = window.devicePixelRatio || 1,
+            w = window.innerWidth,
+            h = window.innerHeight,
+            f = 90,
+            q,
+            m = Math,
+            r = 0,
+            u = m.PI * 2,
+            v = m.cos,
+            z = m.random
+        c.width = w * pr
+        c.height = h * pr
+        x.scale(pr, pr)
+        x.globalAlpha = 0.6
+        function i() {
+            x.clearRect(0, 0, w, h)
+            q = [{ x: 0, y: h * .7 + f }, { x: 0, y: h * .7 - f }]
+            while (q[1].x < w + f) d(q[0], q[1])
+        }
+        function d(i, j) {
+            x.beginPath()
+            x.moveTo(i.x, i.y)
+            x.lineTo(j.x, j.y)
+            var k = j.x + (z() * 2 - 0.25) * f,
+                n = y(j.y)
+            x.lineTo(k, n)
+            x.closePath()
+            r -= u / -50
+            x.fillStyle = '#' + (v(r) * 127 + 128 << 16 | v(r + u / 3) * 127 + 128 << 8 | v(r + u / 3 * 2) * 127 + 128).toString(16)
+            x.fill()
+            q[0] = q[1]
+            q[1] = { x: k, y: n }
+        }
+        function y(p) {
+            var t = p + (z() * 2 - 1.1) * f
+            return (t > h || t < 0) ? y(p) : t
+        }
+        document.onclick = i
+        document.ontouchstart = i
+        i()
+
+        function animate() {
+            var canvas = document.getElementsByTagName("canvas")[0];
+            canvas.className = "fadeOut animated";
+            setTimeout(function () {
+                canvas.className = "fadeIn animated";
+                i();
+            }, 1900);
+        }
+        setInterval(animate, 5000);
+    </script>
+</body>
+
+</html>
