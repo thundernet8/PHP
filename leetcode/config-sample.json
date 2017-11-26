@@ -1,0 +1,7 @@
+{
+    "username": "",
+    "password": "",
+    "language": ["javascript", "java"],
+    "outputDir": "./solutions",
+    "template": "./README.tpl"
+}
