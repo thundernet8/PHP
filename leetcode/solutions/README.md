@@ -3,9 +3,9 @@ This is my leetcode solution folder.
 
 Language: javascript,java
 
-Last updated: 2017-12-13
+Last updated: 2017-12-14
 
-I've solved 7/660 problems (120 problems for a fee).
+I've solved 8/660 problems (120 problems for a fee).
 
 The source code was fetched using the tool [leetcode-spider](https://github.com/Ma63d/leetcode-spider).
 
@@ -18,3 +18,4 @@ The source code was fetched using the tool [leetcode-spider](https://github.com/
 |007|[reverse-integer](https://leetcode.com/problems/reverse-integer/)| [javascript](./007.reverse-integer/reverse-integer.js)| Easy|
 |008|[string-to-integer-atoi](https://leetcode.com/problems/string-to-integer-atoi/)| [javascript](./008.string-to-integer-atoi/string-to-integer-atoi.js)| Medium|
 |026|[remove-duplicates-from-sorted-array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| [javascript](./026.remove-duplicates-from-sorted-array/remove-duplicates-from-sorted-array.js)| Easy|
+|380|[insert-delete-getrandom-o1](https://leetcode.com/problems/insert-delete-getrandom-o1/)| [javascript](./380.insert-delete-getrandom-o1/insert-delete-getrandom-o1.js)| Medium|
