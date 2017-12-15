@@ -8,6 +8,7 @@
 
 * [Prettier](https://prettier.io/) - [Github](https://github.com/prettier/prettier)
 * [stylelint-performance-animation](https://github.com/konstantin24121/stylelint-performance-animation)
+* [Lint-Staged](https://github.com/okonet/lint-staged)
 
 ### Packing
 
