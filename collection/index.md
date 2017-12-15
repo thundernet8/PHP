@@ -9,6 +9,10 @@
 * [Prettier](https://prettier.io/) - [Github](https://github.com/prettier/prettier)
 * [stylelint-performance-animation](https://github.com/konstantin24121/stylelint-performance-animation)
 
+### Packing
+
+* [Autoprefixer](https://github.com/postcss/autoprefixer)
+
 ## Animation
 
 * [GSAP (GreenSock Animation Platform)](https://greensock.com/) - [Github](https://github.com/greensock/GreenSock-JS)
