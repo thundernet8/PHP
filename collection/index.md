@@ -16,3 +16,5 @@
 ## Utilities
 
 * [AST Explorer](http://astexplorer.net/)
+* [TLDR pages](http://tldr.sh/)
+* [Bash jq](https://stedolan.github.io/jq/)
