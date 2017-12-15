@@ -1,0 +1,15 @@
+{
+  "name": "collection",
+  "version": "1.0.0",
+  "description": "collection of useful resources",
+  "main": "index.js",
+  "author": "Wuxueqian <wuxueqian2010@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "devDependencies": {
+    "ejs": "^2.5.7",
+    "showdown": "^1.8.5"
+  }
+}
