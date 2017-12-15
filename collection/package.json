@@ -11,5 +11,8 @@
   "devDependencies": {
     "ejs": "^2.5.7",
     "showdown": "^1.8.5"
+  },
+  "dependencies": {
+    "github-markdown-css": "^2.9.0"
   }
 }
