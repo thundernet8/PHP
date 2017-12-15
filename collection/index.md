@@ -13,6 +13,12 @@
 
 * [Autoprefixer](https://github.com/postcss/autoprefixer)
 
+### Test
+
+* [Jasmine](https://jasmine.github.io/) - [Github](https://github.com/jasmine/jasmine)
+* [Jest](https://facebook.github.io/jest/) - [Github](https://github.com/facebook/jest)
+* [Enzyme](http://airbnb.io/enzyme/) - [Github](https://github.com/airbnb/enzyme)
+
 ## Animation
 
 * [GSAP (GreenSock Animation Platform)](https://greensock.com/) - [Github](https://github.com/greensock/GreenSock-JS)
