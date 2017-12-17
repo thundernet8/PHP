@@ -1,0 +1,1 @@
+{"javascript":"/**\n * @param {number[]} nums\n * @return {number}\n */\nvar singleNumber = function (nums) {\n    var result = nums[0];\n    for (var i = 1; i < nums.length; i++) {\n        result ^= nums[i];\n    }\n    return result;\n};"}
