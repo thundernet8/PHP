@@ -4,6 +4,8 @@
 
 * [Google WebFundamentals](https://developers.google.com/web/fundamentals) - [Github](https://github.com/google/WebFundamentals)
 
+* [JavaScript Style Guide](https://standardjs.com/) - [Github](https://github.com/standard/standard)
+
 ### Linter
 
 * [Prettier](https://prettier.io/) - [Github](https://github.com/prettier/prettier)
