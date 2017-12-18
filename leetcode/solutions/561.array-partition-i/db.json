@@ -1,0 +1,1 @@
+{"javascript":"/**\n * @param {number[]} nums\n * @return {number}\n */\nvar arrayPairSum = function (nums) {\n    nums.sort(function (a, b) { return a - b; });\n    var sum = 0;\n    for (var i = 0; i < nums.length; i += 2) {\n        sum += nums[i];\n    }\n    return sum;\n};\n"}

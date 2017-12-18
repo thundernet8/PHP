@@ -1,0 +1,1 @@
+{"javascript":"/**\n * @param {number[]} nums\n * @param {number} val\n * @return {number}\n */\nvar removeElement = function (nums, val) {\n    var len = 0;\n    nums.forEach(function (num, index) {\n        if (len !== 0) {\n            nums[index - len] = num;\n        }\n        if (num === val) {\n            len++;\n        }\n    });\n    return nums.length - len;\n};\n"}
