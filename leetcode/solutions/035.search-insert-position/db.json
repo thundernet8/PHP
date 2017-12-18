@@ -1,0 +1,1 @@
+{"javascript":"/**\n * @param {number[]} nums\n * @param {number} target\n * @return {number}\n */\nvar searchInsert = function (nums, target) {\n    var len = nums.length;\n    if (len === 0) {\n        return 0;\n    }\n    for (var i = 0; i < len; i++) {\n        if (nums[i] >= target) {\n            return i;\n        }\n    }\n    return len;\n};\n"}
