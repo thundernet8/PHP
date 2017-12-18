@@ -1,0 +1,1 @@
+{"javascript":"/**\n * @param {number} n\n * @return {number}\n */\nvar arrangeCoins = function (n) {\n    return Math.floor(Math.sqrt(2 * n + 1 / 4) - 1 / 2);\n};\n"}

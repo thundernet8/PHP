@@ -5,7 +5,7 @@ Language: javascript,java
 
 Last updated: 2017-12-18
 
-I've solved 17/664 problems (120 problems for a fee).
+I've solved 19/664 problems (120 problems for a fee).
 
 The source code was fetched using the tool [leetcode-spider](https://github.com/Ma63d/leetcode-spider).
 
@@ -26,5 +26,7 @@ The source code was fetched using the tool [leetcode-spider](https://github.com/
 |141|[linked-list-cycle](https://leetcode.com/problems/linked-list-cycle/)| [javascript](./141.linked-list-cycle/linked-list-cycle.js)| Easy|
 |142|[linked-list-cycle-ii](https://leetcode.com/problems/linked-list-cycle-ii/)| [javascript](./142.linked-list-cycle-ii/linked-list-cycle-ii.js)| Medium|
 |380|[insert-delete-getrandom-o1](https://leetcode.com/problems/insert-delete-getrandom-o1/)| [javascript](./380.insert-delete-getrandom-o1/insert-delete-getrandom-o1.js)| Medium|
+|441|[arranging-coins](https://leetcode.com/problems/arranging-coins/)| [javascript](./441.arranging-coins/arranging-coins.js)| Easy|
 |561|[array-partition-i](https://leetcode.com/problems/array-partition-i/)| [javascript](./561.array-partition-i/array-partition-i.js)| Easy|
 |686|[repeated-string-match](https://leetcode.com/problems/repeated-string-match/)| [javascript](./686.repeated-string-match/repeated-string-match.js)| Easy|
+|697|[degree-of-an-array](https://leetcode.com/problems/degree-of-an-array/)| [javascript](./697.degree-of-an-array/degree-of-an-array.js)| Easy|
