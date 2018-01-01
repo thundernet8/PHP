@@ -40,6 +40,11 @@
 * [JSON Schema](http://schemastore.org/json/)
 * [30 Seconds of Code](https://30secondsofcode.org/)
 
+
+## Specifications
+
+* [ES2015](http://www.ecma-international.org/ecma-262/6.0/)
+
 ## NodeJS
 
 * [node-interview](https://elemefe.github.io/node-interview/)
