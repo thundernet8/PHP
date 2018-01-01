@@ -39,3 +39,8 @@
 * [Bash jq](https://stedolan.github.io/jq/)
 * [JSON Schema](http://schemastore.org/json/)
 * [30 Seconds of Code](https://30secondsofcode.org/)
+
+## NodeJS
+
+* [node-interview](https://elemefe.github.io/node-interview/)
+* [nodejs-learning-guide](https://github.com/chyingp/nodejs-learning-guide)
