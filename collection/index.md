@@ -6,6 +6,8 @@
 
 * [JavaScript Style Guide](https://standardjs.com/) - [Github](https://github.com/standard/standard)
 
+* [Google Interview University](https://github.com/jwasham/coding-interview-university/blob/master/translations/README-cn.md)
+
 ### Linter
 
 * [Prettier](https://prettier.io/) - [Github](https://github.com/prettier/prettier)
