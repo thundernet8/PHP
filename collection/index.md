@@ -50,3 +50,7 @@
 
 * [node-interview](https://elemefe.github.io/node-interview/)
 * [nodejs-learning-guide](https://github.com/chyingp/nodejs-learning-guide)
+
+## WebAssembly
+
+* [Awesome-wasm-langs](https://github.com/appcypher/awesome-wasm-langs)
