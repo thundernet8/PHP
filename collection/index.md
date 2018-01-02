@@ -31,6 +31,7 @@
 
 * [Three.js](https://threejs.org/)
 * [CSS Shaders](http://alteredqualia.com/css-shaders/article/)
+* [watermarkjs](http://brianium.github.io/watermarkjs/)
 
 ## Utilities
 
