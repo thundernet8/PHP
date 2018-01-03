@@ -3,9 +3,9 @@ This is my leetcode solution folder.
 
 Language: javascript,java
 
-Last updated: 2017-12-28
+Last updated: 2018-01-03
 
-I've solved 29/668 problems (125 problems for a fee).
+I've solved 30/672 problems (125 problems for a fee).
 
 The source code was fetched using the tool [leetcode-spider](https://github.com/Ma63d/leetcode-spider).
 
@@ -30,6 +30,7 @@ The source code was fetched using the tool [leetcode-spider](https://github.com/
 |035|[search-insert-position](https://leetcode.com/problems/search-insert-position/)| [javascript](./035.search-insert-position/search-insert-position.js)| Easy|
 |038|[count-and-say](https://leetcode.com/problems/count-and-say/)| [javascript](./038.count-and-say/count-and-say.js)| Easy|
 |048|[rotate-image](https://leetcode.com/problems/rotate-image/)| [javascript](./048.rotate-image/rotate-image.js)| Medium|
+|049|[group-anagrams](https://leetcode.com/problems/group-anagrams/)| [javascript](./049.group-anagrams/group-anagrams.js)| Medium|
 |050|[powx-n](https://leetcode.com/problems/powx-n/)| [javascript](./050.powx-n/powx-n.js)| Medium|
 |136|[single-number](https://leetcode.com/problems/single-number/)| [javascript](./136.single-number/single-number.js)| Easy|
 |141|[linked-list-cycle](https://leetcode.com/problems/linked-list-cycle/)| [javascript](./141.linked-list-cycle/linked-list-cycle.js)| Easy|
