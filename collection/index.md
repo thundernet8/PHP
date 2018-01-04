@@ -24,6 +24,7 @@
 * [Mocha](https://mochajs.org/) - [Github](https://github.com/mochajs/mocha)
 * [Jest](https://facebook.github.io/jest/) - [Github](https://github.com/facebook/jest)
 * [Enzyme](http://airbnb.io/enzyme/) - [Github](https://github.com/airbnb/enzyme)
+* [jest-image-snapshot](https://github.com/americanexpress/jest-image-snapshot)
 
 ## Animation
 
