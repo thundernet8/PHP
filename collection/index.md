@@ -52,6 +52,7 @@
 
 * [node-interview](https://elemefe.github.io/node-interview/)
 * [nodejs-learning-guide](https://github.com/chyingp/nodejs-learning-guide)
+* [NODE.JS BEST PRACTICES](https://github.com/i0natan/nodebestpractices)
 
 ## WebAssembly
 
