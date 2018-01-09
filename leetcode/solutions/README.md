@@ -3,9 +3,9 @@ This is my leetcode solution folder.
 
 Language: javascript,java
 
-Last updated: 2018-01-03
+Last updated: 2018-01-09
 
-I've solved 30/672 problems (125 problems for a fee).
+I've solved 32/675 problems (125 problems for a fee).
 
 The source code was fetched using the tool [leetcode-spider](https://github.com/Ma63d/leetcode-spider).
 
@@ -21,6 +21,8 @@ The source code was fetched using the tool [leetcode-spider](https://github.com/
 |012|[integer-to-roman](https://leetcode.com/problems/integer-to-roman/)| [javascript](./012.integer-to-roman/integer-to-roman.js)| Medium|
 |013|[roman-to-integer](https://leetcode.com/problems/roman-to-integer/)| [javascript](./013.roman-to-integer/roman-to-integer.js)| Easy|
 |014|[longest-common-prefix](https://leetcode.com/problems/longest-common-prefix/)| [javascript](./014.longest-common-prefix/longest-common-prefix.js)| Easy|
+|015|[3sum](https://leetcode.com/problems/3sum/)| [javascript](./015.3sum/3sum.js)| Medium|
+|018|[4sum](https://leetcode.com/problems/4sum/)| [javascript](./018.4sum/4sum.js)| Medium|
 |020|[valid-parentheses](https://leetcode.com/problems/valid-parentheses/)| [javascript](./020.valid-parentheses/valid-parentheses.js)| Easy|
 |021|[merge-two-sorted-lists](https://leetcode.com/problems/merge-two-sorted-lists/)| [javascript](./021.merge-two-sorted-lists/merge-two-sorted-lists.js)| Easy|
 |026|[remove-duplicates-from-sorted-array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| [javascript](./026.remove-duplicates-from-sorted-array/remove-duplicates-from-sorted-array.js)| Easy|
