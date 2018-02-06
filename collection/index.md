@@ -43,7 +43,8 @@
 * [Bash jq](https://stedolan.github.io/jq/)
 * [JSON Schema](http://schemastore.org/json/)
 * [30 Seconds of Code](https://30secondsofcode.org/)
-* [CSS Cheaat Sheet](https://adam-marsden.co.uk/css-cheat-sheet)
+* [CSS Cheat Sheet](https://adam-marsden.co.uk/css-cheat-sheet)
+* [Awesome Cheat Sheets](https://github.com/LeCoupa/awesome-cheatsheets)
 * [Can I Use](https://caniuse.com/)
 
 
